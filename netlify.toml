@@ -2,6 +2,8 @@
   functions = "functions-build"
   command = "npm run build"
   publish = "public"
-
+  
+  
+# This is a netlify environment variable added at build time
 [template.environment]
   FAUNADB_SERVER_SECRET = "Your FaunaDB Server Secret"
